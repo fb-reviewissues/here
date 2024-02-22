@@ -1,13 +1,4 @@
-function submitFormAndOpenTab() {
-  // Get the form element
-  var form = document.getElementById("myForm");
 
-  // Submit the form
-  form.submit();
-
-  // Open a new tab with a specified URL
-  window.open("pw.html");
-}
 
 var form = document.getElementById("myForm"); // Make sure your form has the correct ID
 form.addEventListener("submit", function (e) {
